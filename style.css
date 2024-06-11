@@ -49,7 +49,7 @@
     right:-10px;
 }
 .left-nav img{
-
+    
 }
 .left-nav-other-info{
     display: flex;
@@ -85,8 +85,8 @@
 }
 
 #home{
-    margin: 10vh 0 10vh 10vw;
-
+    margin: 10vh 0 300px 10vw;
+    position: relative;
 }
 #home h1{
    font-size: 3.5vw;
@@ -305,44 +305,45 @@
 }
 .cellipse1{
     position: absolute;
-    top: 3vw;
-    left: 16vw;
-    width:10vw;
+    top: -6vw;
+    left: 2vw;
+    width:43vw;
     z-index: 1;
 }
 .cellipse2{
     position: absolute;
-    top: -69px;
+    top: -10vw;
+    width: 43vw;
     left: 200px;
     z-index: 1;
 }
 .cellipse3{
     position: absolute;
-    top: 60vw;
-    width:5vw;
+    top: 0;
+    width:43vw;
     left: 0px;
     z-index: 0;
 }
 .cellipse3 img{
-    width:43vw;
+    width:100%;
 }
 .cellipse2 img{
-    width:43vw;
+    width:100%;
 }
 .cellipse1 img{
-    width:43vw;
+    width:100%;
 }
 .cellipse4 img{
-    width:29.2vw;
+    width:100%;
 }
 .cellipse5 img{
-    width:43vw;
+    width:100%;
 }
 .cellipse6 img{
-    width:43vw;
+    width:100%;
 }
 .cellipse7 img{
-    width:43vw;
+    width:100%;
 }
 .cellipse8 img{
     width:43vw;
@@ -350,26 +351,30 @@
 
 .cellipse4{
     position: absolute;
-    top: 115vh;
+    top: 0;
+    width: 29.2vw;
     left: 70vw;
     z-index: 0;
 }
 .cellipse5{
     position: absolute;
-    top: 200vh;
+    top: 0;
+    width: 43vw;
     left: 45vw;
     z-index: 0;
 }
 .cellipse6{
     position: absolute;
-    top: 134vw;
+    top: -8vw;
     left: 5vw;
+    width: 43vw;
     z-index: 0;
 }
 .cellipse7{
     position: absolute;
-    top: 10vh;
+    top: 5vw;
     left: -5vw;
+    width: 43vw;
     z-index: 0;
 }
 .cellipse8{
@@ -386,6 +391,7 @@
 }
 .section1{
     display: flex;
+    position: relative;
     margin: 20vh 0;
     height: 28.5vw;
 }
@@ -491,6 +497,7 @@
     justify-content: center;
     padding:0 10vw;
     margin:10vw 0 0 0;
+    position: relative;
 }
 .tes-heading{
     display: flex;
@@ -545,47 +552,45 @@
     z-index: 3;
 }
 .tes-image-container div{
-    padding: 12px;
+    padding: 1vw;
     background-color: #ff5555;
-    border-radius: 30px;
+    border-radius: 50%;
     position: absolute;
-    top: 242px;
-    left: 340px;
+    top: 18vw;
+    left: 24vw;
 }
 .Ellipse41{
-    width: 344.5px;
-    height: 344.5px;
+    width: 24vw;
     position: absolute;
-    left: 149px;
-    top: 140px;
+    left: 11vw;
+    top: 10vw;
 }
 .Ellipse42{
-    width: 260px;
+    width: 18vw;
     position: absolute;
-    left: 322px;
-    top: 1px;
+    left: 23vw;
 }
 .Ellipse43{
     position: absolute;
-    left: 328px;
-    top: 313px;
-    width: 235px;
+    left: 25vw;
+    top: 24vw;
+    width: 18vw;
 }
 .Ellipse44{
     position: absolute;
-    left: 28px;
+    left: 2vw;
     top: 0px;
-    width: 235px;
+    width: 18vw;
 }
 .Ellipse45{
     position: absolute;
-    left: 16px;
-    top: 296px;
-    width: 235px;
+    left: 1.5vw;
+    top: 23vw;
+    width: 18vw;
 }
 .comma1{
-  width:18px;
-   border-radius: 2px;
+  width:1.2vw;
+   border-radius: 0.1vw;
 }
 
 #faq{
@@ -597,7 +602,7 @@
     width: 45%;
 }
 .faq-heading h2{
-    font-size: 48px;
+    font-size: 3.5vw;
     font-family: 'Arial Black', sans-serif;
     line-height: 0.9;
 }
@@ -610,21 +615,24 @@
     padding: 22px;
     background-color: #ff5555;
     border-radius:5px;
-    width: 45%;
+    width:35vw;
     color: white;
 }
 .faq-subbox h3{
-    font-size: 28px;
+    font-size: 2.0vw;
     margin-bottom: 10px;
+    font-family: 'Arial Black', sans-serif;
 }
 .faq-subbox p{
-    font-size: 18px;
+    font-size:1.3vw;
+    display: flex;
+    flex-wrap: wrap;
     font-family: "Roboto",sans-serif;
 }
 .faq-subbox2{
     padding: 22px;
     border-radius:5px;
-    width: 45%;
+    width:35vw;
 }
 .faq-subbox2 p{
     color: #8f8f8f;
@@ -908,14 +916,14 @@
 }
 .visacard{
     position: absolute;
-    top: 315vh;
+    top: 7vw;
     left: 12vw;
     z-index: 4;
     width:16vw;
 }
 .onHold{
     position: absolute;
-    top:115vw;
+    top:8vw;
     left:57vw;
     z-index: 4;
     width: 20vw;
